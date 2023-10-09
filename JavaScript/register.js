@@ -357,28 +357,28 @@ submit_btn.addEventListener("click", function () {
       `);
   })
 
-  let previousSkills = document.getElementById("previousSkills").children[0].value;
-  console.log(previousSkills);
+  // let previousSkills = document.getElementById("previousSkills").children[0].value;
+  // console.log(previousSkills);
 
-  let check8 = false;
+  // let check8 = false;
 
-  if (previousSkills == '') {
-    document.head.insertAdjacentHTML("beforeend", `
-        <style>
-          #previousSkills::after{
-           content: "*required field";
-           color: red;
-           font-size: 12px;
-           position: absolute;
-           left: 12px;
-           top: 45px;
-          }
-         </style>
-      `);
-  }
-  else {
-    check8 = true;
-  }
+  // if (previousSkills == '') {
+  //   document.head.insertAdjacentHTML("beforeend", `
+  //       <style>
+  //         #previousSkills::after{
+  //          content: "*required field";
+  //          color: red;
+  //          font-size: 12px;
+  //          position: absolute;
+  //          left: 12px;
+  //          top: 45px;
+  //         }
+  //        </style>
+  //     `);
+  // }
+  // else {
+  //   check8 = true;
+  // }
 
   document.getElementById("previousSkills").addEventListener("click", () => {
     document.head.insertAdjacentHTML("beforeend", `
