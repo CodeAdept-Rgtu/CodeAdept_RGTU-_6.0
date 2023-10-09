@@ -44,7 +44,7 @@ function writeUserData(firstName, lastName, emailId, enrollmentNo, branch, Unive
   })
     .then(() => {
       document.querySelector(".spinnerDiv").classList.add("d-none");
-      swal("Registered!", "You are succesfully registered for this event. You get an email in 24 hours, if you not received any email then contact our team", "success")
+      swal("Registered!", "You have successfully registered for this event. You will receive an email within 24 hours. If you do not receive any email, please contact our team.", "success")
       .then(() => {
         location.reload();
       })
