@@ -446,7 +446,7 @@ body{
 /*contactSection*/
 .contactSection{
      
-    background: url('../Images/contact.jpg'),rgba(0, 0, 0, 0.495);
+    background: transparent;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -461,21 +461,21 @@ body{
 
 /*contactUs*/
 .form-control{
-    background:  rgba(0, 0, 0, 0.457) !important;
+    background:  rgb(213 213 213 / 46%) !important;
     outline:none !important;
     Border:none !important;
-    color:white !important;
 }
 
 .circle{
     padding:10px;
-    border: 2px solid rgba(255, 255, 255, 0.32) ;
+    border: 2px solid black ;
     
     transition-property: all;
     transition-duration: 0.5s;
 }
 .circle:hover{
-    border-color: rgba(255, 255, 255, 0.712);
+    background-color: black;
+    color: white !important;
 }
 .circle-or{
     height: 40px;

@@ -46,7 +46,7 @@ function typeString(string){
         
     
 }
-typeString("CODE TO ADEPT")
+typeString("COMPETE-CODE-CONQUER")
 
 
 // 

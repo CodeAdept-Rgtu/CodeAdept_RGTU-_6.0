@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeAdept 6.0 - Register</title>
+  <title>CodeAdept 7.0 - Register</title>
 
   <link rel="stylesheet" href="./CSS/navbar.css">
   <link rel="stylesheet" href="./CSS/register.css">
@@ -42,17 +42,16 @@
 </style>
 
 <body onload=preloader()>
-  
+
   <div class="spinnerDiv vh-100 vw-100 d-flex flex-column justify-content-center align-items-center d-none">
     <div>
-
       <div class="spinner-border text-primary " role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
-      
     </div>
+
     <h5 class="text-white mt-2">Please Wait...</h5>
-    
+
   </div>
   <section id="loader_container">
     <div class="loader">
@@ -104,50 +103,189 @@
     </div>
   </header>
 
-  
-  <section class="vh-100 h-custom commingSoon text-white d-flex justify-content-center align-items-center">
-    <h1>
-     Registrations Closed !
-    </h1>
-  </section>
+  <section id="register_section-2" class="h-100 h-custom gradient-custom-2">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12">
+          <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+            <div class="card-body p-0">
+              <div class="row g-0">
+                <div class="col-lg-6 general_inforamtion general_information">
+                  <div class="p-5">
+                    <h3 class="fw-normal mb-5" style="color: #4f7cc5;">Register Yourself</h3>
 
-  <!-- <div class="inputdiv">
-        <input type="email" placeholder="enter your email">
-        <button type="submit">submit</button>
-      </div> -->
+                    <div class="row ">
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div id="firstName" class="form-outline">
+                          <input type="text" id="form3Examplev2" class="form-control form-control-lg text-white" />
+                          <label class="form-label" for="form3Examplev2">First Name</label>
+                        </div>
+                      </div>
 
-  <!-- Modal -->
-  <!-- Button trigger modal -->
-  <!-- <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
-    Launch demo modal
-  </button> -->
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div id="lastName" class="form-outline">
+                          <input type="text" id="form3Examplev3" class="form-control form-control-lg text-white" />
+                          <label class="form-label" for="form3Examplev3">Last Name</label>
+                        </div>
+                      </div>
+                    </div>
 
-  <!-- Modal -->
-  <!-- <div class="modal top fade registration_success_modal" id="exampleModal2" tabindex="-1"
-    aria-labelledby="exampleModal2Label" aria-hidden="true" data-mdb-backdrop="static" data-mdb-keyboard="true">
-    <div class="modal-dialog  ">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModal2Label">Modal title</h5>
-          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div id="branch">
+                          <!-- <input type="text" id="form3Examplev2" class="form-control form-control-lg" /> -->
+                          <!-- <label class="form-label" for="form3Examplev2">Branch</label> -->
+                          <select class="form-select form-select-md form-control form-control-lg"
+                            aria-label=".form-select-sm example"
+                            style="background-color: #0b141e !important; color: white !important;">
+                            <option style="background-color: #0b141e !important;" selected>Select Branch</option>
+                            <option style="background-color: #0b141e !important;" value="Information Technology">
+                              Information
+                              Technology</option>
+                            <option style="background: #0b141e !important;" value="Computer Science">Computer Science
+                            </option>
+                            <option style="background-color: #0b141e !important;" value="Electronics Communication">
+                              Electronics Communication</option>
+                            <option style="background-color: #0b141e !important;" value="Electrical Engineering">
+                              Electrical
+                              Engineering</option>
+                            <option style="background-color: #0b141e !important;" value="Mechanical Engineering">
+                              Mechanical
+                              Engineering</option>
+                            <option style="background-color: #0b141e !important;" value="Automobile">Automobile</option>
+                            <option style="background-color: #0b141e !important;" value="Petrochemical">Petrochemical
+                            </option>
+                            <option style="background-color: #0b141e !important;" value="Civil">Civil</option>
+                            <option style="background-color: #0b141e !important;" value="CSBS">CSBS</option>
+                            <option style="background-color: #0b141e !important;" value="AI-ML">AI-ML</option>
+                            <option style="background-color: #0b141e !important;" value="Data Science">Data Science
+                            </option>
+                            <option style="background-color: #0b141e !important;" value="Others">Others</option>
+                          </select>
+                        </div>
+
+
+
+                      </div>
+                      <div class="col-md-6 mb-4 pb-2">
+
+                        <div id="year_of_graduation">
+                          <select class="form-select form-select-md form-control form-control-lg"
+                            aria-label=".form-select-sm example"
+                            style="background-color: #0b141e !important; color: white !important;">
+                            <option style="background-color: #0b141e !important;" selected>Select Graduation Year
+                            </option>
+                            <option style="background-color: #0b141e !important;" value="2023">2023</option>
+                            <option style="background-color: #0b141e !important;" value="2024">2024</option>
+                            <option style="background-color: #0b141e !important;" value="2025">2025</option>
+                            <option style="background-color: #0b141e !important;" value="2026">2026</option>
+                            <option style="background-color: #0b141e !important;" value="2022">2027</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div id="enrollmentNo" class="form-outline">
+                          <input type="text" id="form3Examplev2" class="form-control form-control-lg text-white" />
+                          <label class="form-label" for="form3Examplev2">Enrollment No.</label>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div id="semester" class="form-outline">
+                          <input type="number" min="1" max="8" id="form3Examplev3"
+                            class="form-control form-control-lg text-white appearance-none" />
+                          <label class="form-label" for="form3Examplev3">Semester</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mb-4 pb-2">
+                      <div id="previousSkills" class="form-outline">
+                        <textarea id="form3Examplev4" class="form-control form-control-lg text-white"
+                          rows="5"></textarea>
+
+                        <label class="form-label" for="form3Examplev4">Previous Skills</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 text-white contact_details">
+                  <div class="p-5">
+                    <h3 class="fw-normal mb-5">&nbsp;</h3>
+
+                    <div class="mb-4 pb-2">
+                      <div id="emailId" class="form-outline form-white">
+                        <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplea2">Your Email</label>
+                      </div>
+                    </div>
+
+                    <div class="mb-4 pb-2">
+                      <div id="University_College" class="form-outline form-white">
+                        <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplea2">University / College</label>
+                      </div>
+                    </div>
+
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <input type="text" id="form3Examplea6" class="form-control form-control-lg" value="India"
+                          readonly style="background: none !important;" />
+                        <label class="form-label" for="form3Examplea6">Country</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-5 mb-4 pb-2">
+
+                        <div class="form-outline form-white">
+                          <input type="text" id="form3Examplea7" class="form-control form-control-lg" value="+91"
+                            readonly style="background: none !important;" />
+                          <label class="form-label" for="form3Examplea7">Code +</label>
+                        </div>
+
+                      </div>
+                      <div class="col-md-7 mb-4 pb-2">
+
+                        <div id="contactNo" class="form-outline form-white">
+                          <input type="number" id="form3Examplea8" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Examplea8">Phone Number</label>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="mb-4">
+                      <div class="form-outline form-white">
+                        <input type="text" id="form3Examplea9" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplea9">Address</label>
+                      </div>
+                    </div>
+
+                    <button id="submit_btn" type="button" class="btn btn-light btn-lg register_btn"
+                      data-mdb-ripple-color="dark" data-mdb-target="#exampleModal2">Register</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="modal-body">...</div>
-        <div class="modal-footer"> -->
-  <!-- <button type="button" class="btn btn-primary" data-mdb-dismiss="modal">
-            OK
-          </button> -->
-  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-  </div>
-  </div>
-  </div>
-  </div>
+      </div>
+    </div>
+  </section>
 
   <section id="section-5">
     <div class="container-5">
       <div class="one">
         <h4>CodeAdept</h4>
-        <p>Our mission is to continuously strive to provide the best platform for this and the next
-          generation of students and to bring more such opportunities for students to test themselves.</p>
+        <p>In the world of code, CodeAdept stands as a guiding light, nurturing the flames of enthusiasm that burn
+          within programmers' hearts. We are here to celebrate your relentless dedication and unwavering commitment to
+          the craft.</p>
       </div>
 
 
@@ -157,8 +295,10 @@
         <div>
           <ul>
             <li><i class="fa-solid fa-arrow-right"></i><a href="index.html">Home</a></li>
-            <li><i class="fa-solid fa-arrow-right"></i><a href="./index.html#aboutSection">About us</a></li>
-            <li><i class="fa-solid fa-arrow-right"></i><a href="index.html#contactUS">Contact us</a></li>
+            <li><i class="fa-solid fa-arrow-right"></i><a href="./index.html#aboutSection">About us</a>
+            </li>
+            <li><i class="fa-solid fa-arrow-right"></i><a href="index.html#contactus">Contact us</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -179,7 +319,7 @@
         <div>
           <ul style="padding-left: 0px !important;">
             <li><a href="./index.html#aboutSection">What is CodeAdept ?</a></li>
-            <li><a href="https://www.theasperteam.in">Asper</a></li>
+            <li><a href="https://www.theasperteam.in" target="_blank">Asper</a></li>
             <li><a href="https://www.uitrgpv.ac.in/departments/department_home.aspx" target="_blank">DoIT</a></li>
           </ul>
         </div>
@@ -190,9 +330,9 @@
         <div>
           <!-- <span><a href="#"><i class="fa-brands fa-facebook-f"></i>facebook</a></span> -->
           <!-- <span><a href="#"><i class="fa-brands fa-twitter"></i>twitter</a></span> -->
-          <span><a href="https://www.linkedin.com/showcase/codeadept/"><i
+          <span><a href="https://www.linkedin.com/showcase/codeadept/" target="_blank"><i
                 class="fa-brands fa-linkedin-in"></i>LinkedIn</a></span>
-          <span><a href="https://www.instagram.com/codeadept/"><i
+          <span><a href="https://www.instagram.com/codeadept/" target="_blank"><i
                 class="fa-brands fa-instagram"></i>Instagram</a></span>
         </div>
       </div>
@@ -200,7 +340,7 @@
   </section>
 
   <footer>
-    <div>Copyright &copy; | CodeAdept 6.0 | 2022</div>
+    <div>Copyright &copy; | CodeAdept 7.0 | 2023</div>
   </footer>
 
   <div class="mouse_trailer"></div>
@@ -225,6 +365,6 @@
   }
 </script>
 
-<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </html>
